@@ -7,7 +7,10 @@
 </ion-header>
 
 <ion-content>
-    <ion-card class="welcome-card">
+ <div id="map_canvas">
+   <button ion-button (click)="onButtonClick($event)">Demo</button>
+ </div>
+    <!-- <ion-card class="welcome-card">
       <ion-img src="/assets/shapes.svg"></ion-img>
       <ion-card-header>
         <ion-card-subtitle>Get Started</ion-card-subtitle>
@@ -37,5 +40,5 @@
         <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
         <ion-label>Theme Your App</ion-label>
       </ion-item>
-    </ion-list>
+    </ion-list> -->
 </ion-content>
